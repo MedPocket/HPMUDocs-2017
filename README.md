@@ -8,4 +8,4 @@ Bản quyền &copy; MedPocket.
 
 Cấp phép theo giấy phép [CC0-1.0](LICENSE).
 
-*Dự án phục vụ mục đích phi lợi nhuận. Nếu có bất kỳ thắc mắc nào hãy liên hệ để giải quyết.*
+*Xin lưu ý rằng chúng tôi không sở hữu bản quyền đối với một số phần mềm/sách. Chúng tôi chỉ chia sẻ điều này với khán giả vì mục đích giáo dục và chúng tôi đặc biệt khuyến khích khách truy cập mua phần mềm/sách được cấp phép gốc. Nếu ai đó có bản quyền muốn chúng tôi gỡ bỏ một số phần mềm/sách, vui lòng liên hệ với chúng tôi ngay lập tức.*

@@ -12,14 +12,14 @@
 
 a. Giá trị thống kê cần mô tả
 
-- Tần số (`Frequencies`), tỷ lệ (`Percent` hoặc `Valid Percent` nếu có giá trị `missing` trong bảng tần số). Có thể miêu tả giá trị lớn nhất (`Max`), giá trị nhỏ nhất (`Min`).
+- Tần số (`Frequency`), tỷ lệ (`Percent` hoặc `Valid Percent` nếu có giá trị `missing` trong bảng tần số). Có thể miêu tả giá trị lớn nhất (`Max`), giá trị nhỏ nhất (`Min`).
 
 b. Biểu đồ
 
 - Cột rời (`Bar`).
 - Hình tròn (`Pie`).
 
-c. Dòng lệnh trong SPSS
+c. Lệnh SPSS
 
 - `Analyse > Descriptive Statistics > Frequencies`. _Đảm bảo có tùy chọn bảng phân bố tần số `Display frequency table`_. Sử dụng `Charts` chọn biểu đồ cần vẽ.
 
@@ -46,7 +46,7 @@ c. Biểu đồ
 - `Histograms`.
 - `Boxplot`.
 
-d. Dòng lệnh trong SPSS
+d. Lệnh SPSS
 
 - `Analyse > Descriptive Statistics > Frequencies`. _Không sử dụng tùy chọn bảng phân bố tần số `Display frequency table`_. `Statistics` chọn các thống kê mô tả cần thiết. `Charts` chọn biểu đồ `Histograms`.
 
@@ -65,7 +65,7 @@ b. Biểu đồ
 
 - `Boxplot`.
 
-c. Dòng lệnh trong SPSS
+c. Lệnh SPSS
 
 - `Analyze > Reports > Case Summaries`. `Statistics` chọn các thống kê mô tả cần thiết.
 
@@ -79,13 +79,13 @@ c. Dòng lệnh trong SPSS
 
 a. Giá trị thống kê cần mô tả
 
-- Tần số, tỷ lệ.
+- Tần số (`Frequency`), tỷ lệ (`Percent`).
 
 b. Biểu đồ
 
 - `Bar` hoặc `Stacked`.
 
-c. Dòng lệnh trong SPSS
+c. Lệnh SPSS
 
 - `Analyze > Descriptive Statistics > Crosstabs`. `Cell` chọn tỷ lệ theo dòng (`Row`).
 
@@ -105,7 +105,7 @@ b. Biểu đồ
 
 - `Scatterplot`.
 
-c. Dòng lệnh trong SPSS
+c. Lệnh SPSS
 
 - `Analyze > Correlate > Bivariate`. `Statistics` chọn các thống kê mô tả cần thiết.
 
@@ -145,7 +145,7 @@ b. Một số khái niệm
 
 - Ví dụ: _Trung bình điểm hài lòng của cán bộ y tế có khác 3.5 điểm không?_
 - Giả thiết: _Ho là tương đương (không có sự khác biệt hay không có ý nghĩa thống kê) vs. Ha là không tương đương_.
-- Câu lệnh SPSS: `Analyze > Compare Means > One-Sample T Test`.
+- Lệnh SPSS: `Analyze > Compare Means > One-Sample T Test`.
 
 ![One-Sample T Test](images/one-sample-t-test_1.png)
 
@@ -161,7 +161,7 @@ a. Với hai giá trị trung bình độc lập
 
 - Ví dụ: _Điểm trung bình hài lòng của cán bộ y tế nam và nữ có khác nhau không?_
 - Giả thiết: _Ho là tương đương (không có sự khác biệt hay không có ý nghĩa thống kê) vs. Ha là không tương đương_.
-- Câu lệnh SPSS: `Analyze > Compare Means > IndependentSamples T Test`.
+- Lệnh SPSS: `Analyze > Compare Means > IndependentSamples T Test`.
 
 ![IndependentSamples T Test](images/independent-samples-t-test_1.png)
 
@@ -175,7 +175,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 - Ví dụ: _Điểm trung bình hài lòng của cán bộ y tế sau 1 năm can thiệp?_
 - Giả thiết: _Ho là tương đương (không có sự khác biệt hay không có ý nghĩa thống kê) vs. Ha là không tương đương_.
-- Câu lệnh SPSS: `Analyze > Compare Means > Paired-Samples T Test`.
+- Lệnh SPSS: `Analyze > Compare Means > Paired-Samples T Test`.
 
 ![Paired-Samples T Test](images/paired-samples-t-test_1.png)
 
@@ -189,7 +189,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 - Ví dụ: _Điểm trung bình hài lòng của cán bộ y tế trên 6 tỉnh thành có giống nhau không?_
 - Giả thiết: _Ho là tương đương (không có sự khác biệt hay không có ý nghĩa thống kê) vs. Ha là không tương đương_.
-- Câu lệnh SPSS: `Analyze > Compare Means > One-Way ANOVA`. `Options` chọn `Descriptive` và `Homogeneity of variance test`. `Post Hoc...` để so sánh từng cặp.
+- Lệnh SPSS: `Analyze > Compare Means > One-Way ANOVA`. `Options` chọn `Descriptive` và `Homogeneity of variance test`. `Post Hoc...` để so sánh từng cặp.
 
 ![ANOVA](images/anova_1.png)
 
@@ -205,7 +205,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 - Ví dụ: _Tỷ lệ cán bộ y tế hài lòng với công việc có khác 70% không?_
 - Giả thiết: _Ho là tương đương (không có sự khác biệt hay không có ý nghĩa thống kê) vs. Ha là không tương đương_.
-- Câu lệnh SPSS: `Analyze > Nonparametric Tests > Legacy Dialogs > Binomial`.
+- Lệnh SPSS: `Analyze > Nonparametric Tests > Legacy Dialogs > Binomial`.
 
 ![Binomial](images/binomial_1.png)
 
@@ -219,7 +219,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 - Ví dụ: _Tỷ lệ cán bộ y tế hài lòng với công việc ở nam và nữ là như nhau?_
 - Giả thiết: _Ho là tương đương (không có sự khác biệt hay không có ý nghĩa thống kê) vs. Ha là không tương đương_.
-- Câu lệnh SPSS: `Analyze > Descriptive statistics > Crosstabs`. Chọn `Statistics...` chọn `Chi-square` và `Risk`. Lưu ý `Row(s)` chọn biến độc lập, `Column(s)` chọn biến phụ thuộc.
+- Lệnh SPSS: `Analyze > Descriptive statistics > Crosstabs`. Chọn `Statistics...` chọn `Chi-square` và `Risk`. Lưu ý `Row(s)` chọn biến độc lập, `Column(s)` chọn biến phụ thuộc.
 
 ![Chi-Square](images/chi-square_1.png)
 
@@ -233,7 +233,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 - Ví dụ: _Tỷ lệ cán bộ y tế hài lòng với công việc ở trước và sau can thiệp là như nhau?_
 - Giả thiết: _Ho là tương đương (không có sự khác biệt hay không có ý nghĩa thống kê) vs. Ha là không tương đương_.
-- Câu lệnh SPSS: `Analyze > Descriptive statistics > Crosstabs`. Chọn `Statistics...` chọn `McNemar`. Chọn `Cells` mục `Percentages` chọn `Row` và `Column` để hiện tỷ lệ phần trăm.
+- Lệnh SPSS: `Analyze > Descriptive statistics > Crosstabs`. Chọn `Statistics...` chọn `McNemar`. Chọn `Cells` mục `Percentages` chọn `Row` và `Column` để hiện tỷ lệ phần trăm.
 
 ![McNemar](images/mcnemar_1.png)
 
@@ -247,7 +247,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 - Ví dụ: _Tỷ lệ cán bộ y tế hài lòng với các tỉnh có như nhau?_
 - Giả thiết: _Ho là tương đương (không có sự khác biệt hay không có ý nghĩa thống kê) vs. Ha là không tương đương_.
-- Câu lệnh SPSS: `Analyze > Descriptive statistics > Crosstabs`. Chọn `Statistics...` chọn `Chi-square`. Chọn `Cells` mục `Percentages` chọn `Row` để hiện tỷ lệ phần trăm.
+- Lệnh SPSS: `Analyze > Descriptive statistics > Crosstabs`. Chọn `Statistics...` chọn `Chi-square`. Chọn `Cells` mục `Percentages` chọn `Row` để hiện tỷ lệ phần trăm.
 
 ![Chi-square](images/chi-square_3.png)
 
@@ -277,7 +277,7 @@ a. Mô tả hồi quy và tương quan:
 b. Hồi quy tuyến tính đơn
 
 - Giải thiết: _Ho không có mối quan hệ tuyến tính vs Ha có mối quan hệ tuyến tính._
-- Câu lệnh SPSS: `Analyze > Regression > Linear`.
+- Lệnh SPSS: `Analyze > Regression > Linear`.
 
 ![Linear](images/linear_1.png)
 
@@ -291,7 +291,7 @@ d. Hệ số tương quan
 
 - Ví dụ: _Mối liên quan giữa tuổi của cán bộ y tế và điểm hài lòng._
 - Giải thiết: _Ho không có mối quan hệ tuyến tính vs Ha có mối quan hệ tuyến tính._
-- Câu lệnh SPSS: `Analyze > Correlate > Bivariate`.
+- Lệnh SPSS: `Analyze > Correlate > Bivariate`.
 
 ![Correlations](images/correlations_1.png)
 

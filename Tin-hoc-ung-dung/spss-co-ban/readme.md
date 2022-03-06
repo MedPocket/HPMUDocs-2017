@@ -119,9 +119,13 @@ c. Lệnh SPSS
 
 > Các phần tiếp theo lấy dữ liệu từ [Bộ số liệu được trích từ Điều tra y tế tuyến huyện, xã năm 2015](../du-lieu/staff-satisfaction.sav).
 
-### 2.1. Các bước kiểm định giả thiết
+### 2.1. Một số kiến thức cơ bản về thống kê phân tích
 
-a. Các bước tiến hành
+a. Phân biệt biến
+
+- Biến độc lập thường là biến có trước, biến phụ thuộc là biến có sau.
+
+b. Các bước tiến hành kiểm định giả thiết
 
 1. Hình thành giả thuyết (_Ho không có sự khác biệt vs. Ha có sự khác biệt_).
 2. Xác định ý nghĩa thống kê (a = 0.05 và p = probability. Nếu _p<0,05 = Bác bỏ Ho = Chấp nhận Ha = Kết quả xảy ra là chắn chắn = Khác biệt là có ý nghĩa thống kê_).
@@ -129,15 +133,14 @@ a. Các bước tiến hành
 4. Thực hiện kiểm định để tính p.
 5. Phiên giải và kết luận.
 
-b. Một số khái niệm
+c. Tỷ số chênh (OR), nguy cơ tương đối (RR)
 
-- Tỷ số chênh (OR), nguy cơ tương đối (RR).
-- Hồi quy logistic.
 - OR và RR:
   - OR > 1 yếu tố nguy cơ.
   - OR = 1 không liên quan.
   - OR < 1 yếu tố bảo vệ.
 - CI không chứa 1 thì có ý nghĩa thống kê.
+- OR sử dụng cho bảng 2x2 (2 nhóm). p < 0.05 thì OR có ý nghĩa. Khi p < 0.05 nhận xét thêm CI.
 
 ### 2.2. Kiểm định giá trị trung bình
 
@@ -197,7 +200,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 ![ANOVA](images/anova_2.png)
 
-- Kết luận: _Có ít nhất hai tỉnh khác biệt về điểm trung bình hài lòng của cán bộ y tế p = `Sig. (2-tailed)` = .000 < 0.05._
+- Kết luận: _Có ít nhất hai tỉnh khác biệt về điểm trung bình hài lòng của cán bộ y tế p = `Sig.` = .000 < 0.05._
 
 ## 2.3. Kiểm định giá trị tỷ lệ
 
@@ -213,7 +216,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 ![Binomial](images/binomial_2.png)
 
-- Kết luận: _Có sự khác biệt về tỷ lệ cán bộ y tế hài lòng với công việc với p = `Sig. (2-tailed)` = .000 < 0.001, tỷ lệ hài lòng của quần thể cán bộ y tế (`.5`) trong nghiên cứu năm 2015 thấp hơn 70%._
+- Kết luận: _Có sự khác biệt về tỷ lệ cán bộ y tế hài lòng với công việc với p = `Sig. (1-tailed)` = .000 < 0.001, tỷ lệ hài lòng của quần thể cán bộ y tế (`.5`) trong nghiên cứu năm 2015 thấp hơn 70%._
 
 ### 2.3.2. Kiểm định giả thiết cho hai giá trị tỷ lệ độc lập
 
@@ -285,7 +288,7 @@ b. Hồi quy tuyến tính đơn
 
 ![Linear](images/linear_2.png)
 
-- Kết luận: _`R square` 0,1% (0.001) sự biến thiên của điểm hài lòng được giải thích bởi tuổi của cán bộ y tế. Không có mối quan hệ tuyến tính giữa tuổi cán bộ y tế và điểm hài lòng p = `Sig.` = .220 > 0,05. **Điểm trung bình hài lòng= 3.216 – 0.002 \* tuổi** hay tăng thêm 1 tuổi điểm hài lòng trung bình giảm 0.002 điểm tuy nhiên việc giảm điểm này không có ý nghĩa thống kê._
+- Kết luận: _`R square` 0,1% (0.001) sự biến thiên của điểm hài lòng được giải thích bởi tuổi của cán bộ y tế. Không có mối quan hệ tuyến tính giữa tuổi cán bộ y tế và điểm hài lòng p = `Sig.` = .220 > 0,05. **Điểm trung bình hài lòng= 3.211 – 0.002 \* tuổi** hay tăng thêm 1 tuổi điểm hài lòng trung bình giảm 0.002 điểm tuy nhiên việc giảm điểm này không có ý nghĩa thống kê._
 
 d. Hệ số tương quan
 
@@ -299,7 +302,7 @@ d. Hệ số tương quan
 
 ![Correlations](images/correlations_2.png)
 
-- Kết luận: _Hệ số tương quan (`Pearson Correlation`) là -0.033, không có mối tương quan giữa tuổi và điểm trung bình hài lòng của cán bộ y tế p = `Sig. (2-tailed)` = .220 > 0.05. **Điểm trung bình hài lòng= 3.216 – 0.002 \* tuổi** hay tăng thêm 1 tuổi điểm hài lòng trung bình giảm 0.002 điểm tuy nhiên việc giảm điểm này không có ý nghĩa thống kê._
+- Kết luận: _Hệ số tương quan (`Pearson Correlation`) là -0.030, không có mối tương quan giữa tuổi và điểm trung bình hài lòng của cán bộ y tế p = `Sig. (2-tailed)` = .220 > 0.05._
 
 e. Lưu ý:
 

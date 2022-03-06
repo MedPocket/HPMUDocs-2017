@@ -258,7 +258,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 ![Chi-square](images/chi-square_4.png)
 
-- Kết luận: _Theo `Pearson Chi-square` có p = `Asymptotic Significance (2-sided)` = .000 <> 0,05 nên có sự liên hệ tỷ lệ hài lòng ở cán bộ y tế giữa các tỉnh/thành phố._
+- Kết luận: _Theo `Pearson Chi-square` có p = `Asymptotic Significance (2-sided)` = .000 < 0,05 nên có sự liên hệ tỷ lệ hài lòng ở cán bộ y tế giữa các tỉnh/thành phố._
 
 ## 2.4. Hồi quy và tương quan
 

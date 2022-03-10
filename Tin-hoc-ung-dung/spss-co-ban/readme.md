@@ -140,7 +140,7 @@ c. Tỷ số chênh (OR), nguy cơ tương đối (RR)
   - OR = 1 không liên quan.
   - OR < 1 yếu tố bảo vệ.
 - CI không chứa 1 thì có ý nghĩa thống kê.
-- OR sử dụng cho bảng 2x2 (2 nhóm). p < 0.05 thì OR có ý nghĩa. Khi p < 0.05 nhận xét thêm CI.
+- OR sử dụng cho bảng 2x2 (hai nhóm). p < 0.05 thì OR có ý nghĩa. Khi p < 0.05 nhận xét thêm CI.
 
 ### 2.2. Kiểm định giá trị trung bình
 
@@ -156,7 +156,7 @@ c. Tỷ số chênh (OR), nguy cơ tương đối (RR)
 
 ![One-Sample T Test](images/one-sample-t-test_2.png)
 
-- Kết luận: _Có sự khác biệt giữa điểm TB hài lòng của cán bộ y tế trong nghiên cứu năm 2015 với 3,5 điểm p = `Sig. (2-tailed)` = .000 < 0.001. Có ý nghĩa thống kê. Điểm trung bình hài lòng trong nghiên cứu năm 2015 thấp hơn khoảng 0.36282 điểm (CI95%: 0,3316-0,3941)._
+- Kết luận: _Có sự khác biệt giữa điểm trung bình hài lòng của cán bộ y tế trong nghiên cứu năm 2015 với 3,5 điểm p = `Sig. (2-tailed)` = .000 < 0.001. Có ý nghĩa thống kê. Điểm trung bình hài lòng trong nghiên cứu năm 2015 thấp hơn khoảng 0.36282 điểm (CI95%: 0,3316-0,3941)._
 
 ### 2.2.2. Kiểm định giả thiết cho hai giá trị trung bình
 

@@ -128,7 +128,7 @@ a. Phân biệt biến
 b. Các bước tiến hành kiểm định giả thiết
 
 1. Hình thành giả thuyết (_Ho không có sự khác biệt vs. Ha có sự khác biệt_).
-2. Xác định ý nghĩa thống kê (a = 0.05 và p = probability. Nếu _p<0,05 = Bác bỏ Ho = Chấp nhận Ha = Kết quả xảy ra là chắn chắn = Khác biệt là có ý nghĩa thống kê_).
+2. Xác định ý nghĩa thống kê (a = 0.05 và p = probability. Nếu _p < 0,05 = Bác bỏ Ho = Chấp nhận Ha = Kết quả xảy ra là chắn chắn = Khác biệt là có ý nghĩa thống kê_).
 3. Xác định kiểm định thống kê.
 4. Thực hiện kiểm định để tính p.
 5. Phiên giải và kết luận.

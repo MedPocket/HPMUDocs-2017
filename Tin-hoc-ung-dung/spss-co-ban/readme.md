@@ -2,6 +2,8 @@
 
 > Thống kê SPSS là một gói phần mềm được sử dụng để phân tích thống kê theo lô và theo lô có tính logic. Được sản xuất từ lâu bởi SPSS Inc. và được tập đoàn IBM mua lại năm 2009. Phiên bản hiện hành được đặt tên chính thức là IBM SPSS Statistics.
 
+> Tài liệu được viết bởi *Long Nhật Nguyễn*.
+
 ## 1. Thống kê mô tả
 
 > Các phần tiếp theo lấy dữ liệu từ [Nghiên cứu tăng huyết áp](../du-lieu/so-lieu-nghien-cuu-tang-huyet-ap.sav).
@@ -304,7 +306,7 @@ d. Hệ số tương quan
 
 - Kết luận: _Hệ số tương quan (`Pearson Correlation`) là -0.030, không có mối tương quan giữa tuổi và điểm trung bình hài lòng của cán bộ y tế p = `Sig. (2-tailed)` = .220 > 0.05._
 
-e. Lưu ý:
+e. Lưu ý
 
 - Hồi quy tuyến tính biến đầu ra là biến liên tục.
 - Hồi quy logictics biến đầu ra là biến nhị phân theo phân phối chuẩn.

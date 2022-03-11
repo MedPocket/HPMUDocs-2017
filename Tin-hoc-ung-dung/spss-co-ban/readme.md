@@ -158,7 +158,7 @@ c. Tỷ số chênh (OR), nguy cơ tương đối (RR)
 
 ![One-Sample T Test](images/one-sample-t-test_2.png)
 
-- Kết luận: _Có sự khác biệt giữa điểm trung bình hài lòng của cán bộ y tế trong nghiên cứu năm 2015 với 3,5 điểm p = `Sig. (2-tailed)` = .000 < 0.05. Có ý nghĩa thống kê. Điểm trung bình hài lòng trong nghiên cứu năm 2015 thấp hơn khoảng 0.36282 điểm (CI95%: 0,3316-0,3941)._
+- Kết luận: _Có sự khác biệt giữa điểm trung bình hài lòng của cán bộ y tế trong nghiên cứu năm 2015 với 3,5 điểm p = `Sig. (2-tailed)` = .000 < 0.05. Có ý nghĩa thống kê. Điểm trung bình hài lòng trong nghiên cứu năm 2015 thấp hơn khoảng 0.36282 điểm (CI95%: 0.3316-0.3941)._
 
 ### 2.2.2. Kiểm định giả thiết cho hai giá trị trung bình
 
@@ -188,7 +188,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 ![Paired-Samples T Test](images/paired-samples-t-test_2.png)
 
-- Kết luận: _Có sự khác biệt về điểm trung bình hài lòng của cán bộ y tế trước và sau can thiệp p = `Sig. (2-tailed)` = .000 < 0.05. Có ý nghĩa thống kê. Trung bình điểm hài lòng của cán bộ y tế tăng khoảng 0,32587 điểm sau can thiệp (CI95%: 0,32082-0,33092)._
+- Kết luận: _Có sự khác biệt về điểm trung bình hài lòng của cán bộ y tế trước và sau can thiệp p = `Sig. (2-tailed)` = .000 < 0.05. Có ý nghĩa thống kê. Trung bình điểm hài lòng của cán bộ y tế tăng khoảng 0.32587 điểm sau can thiệp (CI95%: 0.32082-0.33092)._
 
 ### 2.2.3. Kiểm định cho nhiều giá trị trung bình
 
@@ -290,7 +290,7 @@ b. Hồi quy tuyến tính đơn
 
 ![Linear](images/linear_2.png)
 
-- Kết luận: _`R square` 0,1% (0.001) sự biến thiên của điểm hài lòng được giải thích bởi tuổi của cán bộ y tế. Không có mối quan hệ tuyến tính giữa tuổi cán bộ y tế và điểm hài lòng p = `Sig.` = .220 > 0.05. **Điểm trung bình hài lòng= 3.211 – 0.002 \* tuổi** hay tăng thêm 1 tuổi điểm hài lòng trung bình giảm 0.002 điểm tuy nhiên việc giảm điểm này không có ý nghĩa thống kê._
+- Kết luận: _`R square` 0.1% (0.001) sự biến thiên của điểm hài lòng được giải thích bởi tuổi của cán bộ y tế. Không có mối quan hệ tuyến tính giữa tuổi cán bộ y tế và điểm hài lòng p = `Sig.` = .220 > 0.05. **Điểm trung bình hài lòng= 3.211 – 0.002 \* tuổi** hay tăng thêm 1 tuổi điểm hài lòng trung bình giảm 0.002 điểm tuy nhiên việc giảm điểm này không có ý nghĩa thống kê._
 
 d. Hệ số tương quan
 

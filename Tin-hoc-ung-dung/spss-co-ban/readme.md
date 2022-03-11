@@ -130,7 +130,7 @@ a. Phân biệt biến
 b. Các bước tiến hành kiểm định giả thiết
 
 1. Hình thành giả thuyết (_Ho không có sự khác biệt vs. Ha có sự khác biệt_).
-2. Xác định ý nghĩa thống kê (a = 0.05 và p = probability. Nếu _p < 0,05 = Bác bỏ Ho = Chấp nhận Ha = Kết quả xảy ra là chắn chắn = Khác biệt là có ý nghĩa thống kê_).
+2. Xác định ý nghĩa thống kê (a = 0.05 và p = probability. Nếu _p < 0.05 = Bác bỏ Ho = Chấp nhận Ha = Kết quả xảy ra là chắn chắn = Khác biệt là có ý nghĩa thống kê_).
 3. Xác định kiểm định thống kê.
 4. Thực hiện kiểm định để tính p.
 5. Phiên giải và kết luận.
@@ -158,7 +158,7 @@ c. Tỷ số chênh (OR), nguy cơ tương đối (RR)
 
 ![One-Sample T Test](images/one-sample-t-test_2.png)
 
-- Kết luận: _Có sự khác biệt giữa điểm trung bình hài lòng của cán bộ y tế trong nghiên cứu năm 2015 với 3,5 điểm p = `Sig. (2-tailed)` = .000 < 0.001. Có ý nghĩa thống kê. Điểm trung bình hài lòng trong nghiên cứu năm 2015 thấp hơn khoảng 0.36282 điểm (CI95%: 0,3316-0,3941)._
+- Kết luận: _Có sự khác biệt giữa điểm trung bình hài lòng của cán bộ y tế trong nghiên cứu năm 2015 với 3,5 điểm p = `Sig. (2-tailed)` = .000 < 0.05. Có ý nghĩa thống kê. Điểm trung bình hài lòng trong nghiên cứu năm 2015 thấp hơn khoảng 0.36282 điểm (CI95%: 0,3316-0,3941)._
 
 ### 2.2.2. Kiểm định giả thiết cho hai giá trị trung bình
 
@@ -174,7 +174,7 @@ a. Với hai giá trị trung bình độc lập
 
 ![IndependentSamples T Test](images/independent-samples-t-test_2.png)
 
-- Kết luận: _Không có sự khác biệt giữa điểm trung bình hài lòng giữa cán bộ y tế nam và nữ p = `Sig. (2-tailed)` = .057 > 0,05. Không có ý nghĩa thống kê._
+- Kết luận: _Không có sự khác biệt giữa điểm trung bình hài lòng giữa cán bộ y tế nam và nữ p = `Sig. (2-tailed)` = .057 > 0.05. Không có ý nghĩa thống kê._
 
 b. Với hai giá trị trung bình ghép cặp
 
@@ -218,7 +218,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 ![Binomial](images/binomial_2.png)
 
-- Kết luận: _Có sự khác biệt về tỷ lệ cán bộ y tế hài lòng với công việc với p = `Sig. (1-tailed)` = .000 < 0.001, tỷ lệ hài lòng của quần thể cán bộ y tế (`.5`) trong nghiên cứu năm 2015 thấp hơn 70%._
+- Kết luận: _Có sự khác biệt về tỷ lệ cán bộ y tế hài lòng với công việc với p = `Sig. (1-tailed)` = .000 < 0.05, tỷ lệ hài lòng của quần thể cán bộ y tế (`.5`) trong nghiên cứu năm 2015 thấp hơn 70%._
 
 ### 2.3.2. Kiểm định giả thiết cho hai giá trị tỷ lệ độc lập
 
@@ -232,7 +232,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 ![Chi-Square](images/chi-square_2.png)
 
-- Kết luận: _Theo `Pearson Chi-square` có p = `Asymptotic Significance (2-sided)` = .396 > 0,05 nên không có sự khác biệt tỷ lệ hài lòng ở cán bộ y tế nam và nữ. CI95% của OR (`Odds Ratio for gender (male/female)`) từ .734 đến 1.130 chứa giá trị 1 nên không có mối liên quan._
+- Kết luận: _Theo `Pearson Chi-square` có p = `Asymptotic Significance (2-sided)` = .396 > 0.05 nên không có sự khác biệt tỷ lệ hài lòng ở cán bộ y tế nam và nữ. CI95% của OR (`Odds Ratio for gender (male/female)`) từ .734 đến 1.130 chứa giá trị 1 nên không có mối liên quan._
 
 ### 2.3.3. Kiểm định giả thiết cho hai giá trị tỷ lệ ghép cặp
 
@@ -246,7 +246,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 ![McNemar](images/mcnemar_2.png)
 
-- Kết luận: _Có sự khác biệt về tỷ lệ cán bộ y tế hài lòng với công việc trước và sau can thiệp. Kiểm định `McNemar Test` với p = `Exact Sig. (2-sided)` = .024 < 0,05. Can thiệp, tỷ lệ cán bộ y tế hài lòng với công việc cao hơn so với trước can thiệp theo bảng (49,8% vs. 48,7%)._
+- Kết luận: _Có sự khác biệt về tỷ lệ cán bộ y tế hài lòng với công việc trước và sau can thiệp. Kiểm định `McNemar Test` với p = `Exact Sig. (2-sided)` = .024 < 0.05. Can thiệp, tỷ lệ cán bộ y tế hài lòng với công việc cao hơn so với trước can thiệp theo bảng (49,8% vs. 48,7%)._
 
 ### 2.3.4. Kiểm định giả thiết cho nhiều hơn hai giá trị tỷ lệ
 
@@ -260,7 +260,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 ![Chi-square](images/chi-square_4.png)
 
-- Kết luận: _Theo `Pearson Chi-square` có p = `Asymptotic Significance (2-sided)` = .000 < 0,05 nên có sự liên hệ tỷ lệ hài lòng ở cán bộ y tế giữa các tỉnh/thành phố._
+- Kết luận: _Theo `Pearson Chi-square` có p = `Asymptotic Significance (2-sided)` = .000 < 0.05 nên có sự liên hệ tỷ lệ hài lòng ở cán bộ y tế giữa các tỉnh/thành phố._
 
 ## 2.4. Hồi quy và tương quan
 
@@ -290,7 +290,7 @@ b. Hồi quy tuyến tính đơn
 
 ![Linear](images/linear_2.png)
 
-- Kết luận: _`R square` 0,1% (0.001) sự biến thiên của điểm hài lòng được giải thích bởi tuổi của cán bộ y tế. Không có mối quan hệ tuyến tính giữa tuổi cán bộ y tế và điểm hài lòng p = `Sig.` = .220 > 0,05. **Điểm trung bình hài lòng= 3.211 – 0.002 \* tuổi** hay tăng thêm 1 tuổi điểm hài lòng trung bình giảm 0.002 điểm tuy nhiên việc giảm điểm này không có ý nghĩa thống kê._
+- Kết luận: _`R square` 0,1% (0.001) sự biến thiên của điểm hài lòng được giải thích bởi tuổi của cán bộ y tế. Không có mối quan hệ tuyến tính giữa tuổi cán bộ y tế và điểm hài lòng p = `Sig.` = .220 > 0.05. **Điểm trung bình hài lòng= 3.211 – 0.002 \* tuổi** hay tăng thêm 1 tuổi điểm hài lòng trung bình giảm 0.002 điểm tuy nhiên việc giảm điểm này không có ý nghĩa thống kê._
 
 d. Hệ số tương quan
 

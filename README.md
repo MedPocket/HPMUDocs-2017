@@ -4,7 +4,7 @@ HPMUDocs 2017 là dự án lưu trữ kiến thức Y học 2017 của MedPocket
 
 ## Đóng góp cho dự án
 
-- Long Nhật Nguyễn
+Long Nhật Nguyễn.
 
 ## Bản quyền
 

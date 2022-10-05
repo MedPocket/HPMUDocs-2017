@@ -1,5 +1,7 @@
 # HPMUDocs 2017
 
+[![Download from GitHub](https://img.shields.io/github/repo-size/MedPocket/HPMUDocs-2017?logo=github&label=Download)](https://github.com/MedPocket/HPMUDocs-2017/archive/refs/heads/main.zip)
+
 HPMUDocs 2017 là dự án lưu trữ kiến thức Y học 2017 của MedPocket.
 
 ## Đóng góp cho dự án

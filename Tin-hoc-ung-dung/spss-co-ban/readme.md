@@ -54,9 +54,9 @@ d. Lệnh SPSS
 
 ![Frequencies 2](images/frequencies_2.png)
 
-## 1.2. Mô tả hai biến
+### 1.2. Mô tả hai biến
 
-### 1.2.1. Một biến định tính và một biến định lượng
+#### 1.2.1. Một biến định tính và một biến định lượng
 
 a. Giá trị thống kê cần mô tả
 
@@ -77,7 +77,7 @@ c. Lệnh SPSS
 
 ![Boxplot](images/boxplot.png)
 
-### 1.2.2. Hai biến định tính
+#### 1.2.2. Hai biến định tính
 
 a. Giá trị thống kê cần mô tả
 
@@ -97,7 +97,7 @@ c. Lệnh SPSS
 
 ![Stacked](images/stacked.png)
 
-### 1.2.3. Hai biến định lượng
+#### 1.2.3. Hai biến định lượng
 
 a. Giá trị thống kê cần mô tả
 
@@ -146,7 +146,7 @@ c. Tỷ số chênh (OR), nguy cơ tương đối (RR)
 
 ### 2.2. Kiểm định giá trị trung bình
 
-### 2.2.1. Kiểm định giả thiết cho một giá trị trung bình
+#### 2.2.1. Kiểm định giả thiết cho một giá trị trung bình
 
 - Ví dụ: _Trung bình điểm hài lòng của cán bộ y tế có khác 3.5 điểm không?_
 - Giả thiết: _Ho là tương đương (không có sự khác biệt hay không có ý nghĩa thống kê) vs. Ha là không tương đương_.
@@ -160,7 +160,7 @@ c. Tỷ số chênh (OR), nguy cơ tương đối (RR)
 
 - Kết luận: _Có sự khác biệt giữa điểm trung bình hài lòng của cán bộ y tế trong nghiên cứu năm 2015 với 3,5 điểm p = `Sig. (2-tailed)` = .000 < 0.05. Có ý nghĩa thống kê. Điểm trung bình hài lòng trong nghiên cứu năm 2015 thấp hơn khoảng 0.36282 điểm (CI95%: 0.3316-0.3941)._
 
-### 2.2.2. Kiểm định giả thiết cho hai giá trị trung bình
+#### 2.2.2. Kiểm định giả thiết cho hai giá trị trung bình
 
 a. Với hai giá trị trung bình độc lập
 
@@ -190,7 +190,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 - Kết luận: _Có sự khác biệt về điểm trung bình hài lòng của cán bộ y tế trước và sau can thiệp p = `Sig. (2-tailed)` = .000 < 0.05. Có ý nghĩa thống kê. Trung bình điểm hài lòng của cán bộ y tế tăng khoảng 0.32587 điểm sau can thiệp (CI95%: 0.32082-0.33092)._
 
-### 2.2.3. Kiểm định cho nhiều giá trị trung bình
+#### 2.2.3. Kiểm định cho nhiều giá trị trung bình
 
 - Ví dụ: _Điểm trung bình hài lòng của cán bộ y tế trên 6 tỉnh thành có giống nhau không?_
 - Giả thiết: _Ho là tương đương (không có sự khác biệt hay không có ý nghĩa thống kê) vs. Ha là không tương đương_.
@@ -204,9 +204,9 @@ b. Với hai giá trị trung bình ghép cặp
 
 - Kết luận: _Có ít nhất hai tỉnh khác biệt về điểm trung bình hài lòng của cán bộ y tế p = `Sig.` = .000 < 0.05._
 
-## 2.3. Kiểm định giá trị tỷ lệ
+### 2.3. Kiểm định giá trị tỷ lệ
 
-### 2.3.1. Kiểm định giả thiết cho một giá trị tỷ lệ
+#### 2.3.1. Kiểm định giả thiết cho một giá trị tỷ lệ
 
 - Ví dụ: _Tỷ lệ cán bộ y tế hài lòng với công việc có khác 70% không?_
 - Giả thiết: _Ho là tương đương (không có sự khác biệt hay không có ý nghĩa thống kê) vs. Ha là không tương đương_.
@@ -220,7 +220,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 - Kết luận: _Có sự khác biệt về tỷ lệ cán bộ y tế hài lòng với công việc với p = `Sig. (1-tailed)` = .000 < 0.05, tỷ lệ hài lòng của quần thể cán bộ y tế (`.5`) trong nghiên cứu năm 2015 thấp hơn 70%._
 
-### 2.3.2. Kiểm định giả thiết cho hai giá trị tỷ lệ độc lập
+#### 2.3.2. Kiểm định giả thiết cho hai giá trị tỷ lệ độc lập
 
 - Ví dụ: _Tỷ lệ cán bộ y tế hài lòng với công việc ở nam và nữ là như nhau?_
 - Giả thiết: _Ho là tương đương (không có sự khác biệt hay không có ý nghĩa thống kê) vs. Ha là không tương đương_.
@@ -234,7 +234,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 - Kết luận: _Theo `Pearson Chi-square` có p = `Asymptotic Significance (2-sided)` = .396 > 0.05 nên không có sự khác biệt tỷ lệ hài lòng ở cán bộ y tế nam và nữ. CI95% của OR (`Odds Ratio for gender (male/female)`) từ .734 đến 1.130 chứa giá trị 1 nên không có mối liên quan._
 
-### 2.3.3. Kiểm định giả thiết cho hai giá trị tỷ lệ ghép cặp
+#### 2.3.3. Kiểm định giả thiết cho hai giá trị tỷ lệ ghép cặp
 
 - Ví dụ: _Tỷ lệ cán bộ y tế hài lòng với công việc ở trước và sau can thiệp là như nhau?_
 - Giả thiết: _Ho là tương đương (không có sự khác biệt hay không có ý nghĩa thống kê) vs. Ha là không tương đương_.
@@ -248,7 +248,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 - Kết luận: _Có sự khác biệt về tỷ lệ cán bộ y tế hài lòng với công việc trước và sau can thiệp. Kiểm định `McNemar Test` với p = `Exact Sig. (2-sided)` = .024 < 0.05. Can thiệp, tỷ lệ cán bộ y tế hài lòng với công việc cao hơn so với trước can thiệp theo bảng (49,8% vs. 48,7%)._
 
-### 2.3.4. Kiểm định giả thiết cho nhiều hơn hai giá trị tỷ lệ
+#### 2.3.4. Kiểm định giả thiết cho nhiều hơn hai giá trị tỷ lệ
 
 - Ví dụ: _Tỷ lệ cán bộ y tế hài lòng với các tỉnh có như nhau?_
 - Giả thiết: _Ho là tương đương (không có sự khác biệt hay không có ý nghĩa thống kê) vs. Ha là không tương đương_.
@@ -262,7 +262,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 - Kết luận: _Theo `Pearson Chi-square` có p = `Asymptotic Significance (2-sided)` = .000 < 0.05 nên có sự liên hệ tỷ lệ hài lòng ở cán bộ y tế giữa các tỉnh/thành phố._
 
-## 2.4. Hồi quy và tương quan
+### 2.4. Hồi quy và tương quan
 
 a. Mô tả hồi quy và tương quan:
 

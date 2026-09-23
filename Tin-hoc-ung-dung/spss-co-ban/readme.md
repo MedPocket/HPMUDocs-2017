@@ -246,7 +246,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 ![McNemar](images/mcnemar_2.png)
 
-- Kết luận: _Có sự khác biệt về tỷ lệ cán bộ y tế hài lòng với công việc trước và sau can thiệp. Kiểm định `McNemar Test` với p = `Exact Sig. (2-sided)` = .024 < 0.05. Can thiệp, tỷ lệ cán bộ y tế hài lòng với công việc cao hơn so với trước can thiệp theo bảng (49,8% vs. 48,7%)._
+- Kết luận: _Có sự khác biệt về tỷ lệ cán bộ y tế hài lòng với công việc trước và sau can thiệp. Kiểm định `McNemar Test` với p = `Exact Sig. (2-sided)` = .024 < 0.05. Can thiệp, tỷ lệ cán bộ y tế hài lòng với công việc cao hơn so với trước can thiệp theo bảng (49,8% vs. 48,7%)._ Đây là bảng `2 × 2` nên đọc p ở hàng thứ nhất.
 
 #### 2.3.4. Kiểm định giả thiết cho nhiều hơn hai giá trị tỷ lệ
 
@@ -260,7 +260,7 @@ b. Với hai giá trị trung bình ghép cặp
 
 ![Chi-square](images/chi-square_4.png)
 
-- Kết luận: _Theo `Pearson Chi-square` có p = `Asymptotic Significance (2-sided)` = .000 < 0.05 nên có sự liên hệ tỷ lệ hài lòng ở cán bộ y tế giữa các tỉnh/thành phố._
+- Kết luận: _Theo `Pearson Chi-square` có p = `Asymptotic Significance (2-sided)` = .000 < 0.05 nên có sự liên hệ tỷ lệ hài lòng ở cán bộ y tế giữa các tỉnh/thành phố._ Đây là bảng `n × m` nên đọc p ở hàng thứ hai.
 
 ### 2.4. Hồi quy và tương quan
 

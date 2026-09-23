@@ -174,7 +174,7 @@ a. Với hai giá trị trung bình độc lập
 
 ![IndependentSamples T Test](images/independent-samples-t-test_2.png)
 
-- Kết luận: _Không có sự khác biệt giữa điểm trung bình hài lòng giữa cán bộ y tế nam và nữ p = `Sig. (2-tailed)` = .057 > 0.05. Không có ý nghĩa thống kê._
+- Kết luận: **Levene's Test for Equality of Variances** kiểm định tính đồng nhất của phương sai 2 nhóm với `Sig.` = 0.11 > 0.05 nên đọc kết quả ở hàng **Equal variances assumed**. _Không có sự khác biệt giữa điểm trung bình hài lòng giữa cán bộ y tế nam và nữ p = `Sig. (2-tailed)` = .057 > 0.05. Không có ý nghĩa thống kê._ Trường hợp **Levene's Test for Equality of Variances** kiểm định tính đồng nhất của phương sai 2 nhóm với `Sig.`< 0.05 thì đọc kết quả ở hàng **Equal variances not assumed**.
 
 b. Với hai giá trị trung bình ghép cặp
 
